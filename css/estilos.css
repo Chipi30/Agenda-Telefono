@@ -1,0 +1,31 @@
+body{
+    background-color: #DEB887
+    black
+}
+.container{
+    width: 70vw;
+    height: 100vh;
+    margin: 2rem auto;
+    display: flex;
+    flex-direction: column;
+}
+input, button{
+    margin: 1rem 0rem;
+    line-height: 1.8rem;
+}
+button{
+    background-color: #2874A6;
+}
+.contacto{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.contacto p{
+    flex: 8;
+}
+.contacto spam{
+    flex: 1;
+    color: 231, 76, 60 ;
+    cursor: pointer;
+}
